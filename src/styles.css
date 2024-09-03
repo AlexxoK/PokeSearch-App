@@ -1,0 +1,21 @@
+.gameboy-color {
+  background-color: #a4b0b6;
+  border: 8px solid #4b8e4b;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.gameboy-screen {
+  background-color: #a8d3a2;
+  border: 4px solid #4b8e4b;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.gameboy-header {
+  font-family: "Press Start 2P";
+  color: #333;
+}
