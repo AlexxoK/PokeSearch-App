@@ -5,7 +5,7 @@ export const reqPoke = async (pokemon) => {
     const { stats } = data;
     const { sprites } = data;
     const nombre = data.name;
-    const imagen = sprites.front_default;
+    const imagen = sprites.front_shiny;
 
     const estadisticas = stats.map((stats) => ({
       nombre: stats.stat.name,
